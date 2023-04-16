@@ -18,32 +18,6 @@ for(let i = 0; i < elementsArray.length; i++) {
     elements = elementsArray[i];
   }
 }
-// const classes = document.getElementsByTagName('*');
-// const className = 'my-class';
-// let elements;
-
-// for (let i = 0; i < classes.length; i++) {
-//   const cls = classes[i];
-//   if (cls.classList.contains('droid')) {
-//      elements = document.getElementsByClassName('droid');
-//   }
-//   else if (cls.classList.contains('notranslate public-DraftEditor-content')) {
-//      elements = document.getElementsByClassName('notranslate public-DraftEditor-content');
-//   }
-//   else if(cls.classList.contains('view-line')) {
-//      elements = document.getElementsByClassName('view-line');
-//   }
-//   else if(cls.classList.contains('editable ')) {
-//      elements = document.getElementsByClassName('editable');
-//   }
-//   else if(cls.classList.contains('ql-editor')) {
-//      elements = document.getElementsByClassName('ql-editor');
-//   }
-//   else {
-//     elements = document.getElementsByClassName('doc');
-//   }
-// }
-
 
 if (elements.length === 0) {
   return;

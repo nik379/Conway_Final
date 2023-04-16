@@ -31,7 +31,7 @@ npm install
 
 6. In the **Developer options**, click on **"Load unpacked"**
 
-7. Select the **build/** folder from the repo
+7. Select the folder where manifest.json file is present.
 
 # Usage
 Once installed, the user can activate the extension by right-clicking on input text and selecting the "Conway:" keyword. The extension will then accept any request and provide relevant assistance based on the input.

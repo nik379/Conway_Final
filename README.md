@@ -6,6 +6,7 @@ Once activated, the extension accepts any request from the user and provides rel
 * The AI-based helper extension eliminates the need for users to copy and paste their problems into ChatGPT repeatedly.
 * The extension accepts any request from the user directly where they are.
 * By eliminating the need for additional authentication steps and reducing the time and effort required to complete tasks, the extension optimizes the user workflow, resulting in a more efficient and satisfying experience.
+
 # Installation
 ### How to Install the extension
 1. Clone/Download this repo
@@ -33,10 +34,14 @@ npm install
 
 7. Select the **build/** folder from the repo
 
+Note: You might need to reload extension after entering the API key to get it working.
+
 # Usage
 Once installed, the user can activate the extension by right-clicking on input text and selecting the "Conway:" keyword. The extension will then accept any request and provide relevant assistance based on the input.
 
 # Future Aspects
+* **ENABLING THE EXTENSION FOR ALL WEBSITES** : As of now, it is fully working with few websites like Calmly , Gmail , Linekdin , Medium but we will soon get it working for every website.
+* **ACTIVATION WITH KEYWORD**: Adding feature of activating the extension with "conway" keyword.
 * **COMPATIBILITY WITH OTHER BROWSERS** : Making the Conway extension work in other browsers like Edge.
 * **SPEECH INPUT** : Providing with speech input for enhanced user experience.
 * **CONWAY FOR APPS** : Providing the AI helper in the apps.
